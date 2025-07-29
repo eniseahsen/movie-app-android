@@ -25,9 +25,13 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 
 
 ## Ekran Görüntüleri
-| Ana Sayfa | Favoriler | Profil | Detay |
+| Ana Sayfa | Favoriler | Profi |
 |-----------|------------|-----------|
-| ![home](screenshots/home.jpeg) | ![detail](screenshots/favorites.jpeg) | ![fav](screenshots/profile.jpeg) |  ![fav](screenshots/profile.jpeg) |
+| ![home](screenshots/home.jpeg) | ![detail](screenshots/favorites.jpeg) | ![fav](screenshots/profile.jpeg) |
+
+| Ana Sayfa | Favoriler | Profil |
+|-----------|------------|-----------|
+| ![home](screenshots/filmdetail.jpeg) | ![detail](screenshots/cast.jpeg) | ![fav](navbar/profile.jpeg) |
 
 
 
