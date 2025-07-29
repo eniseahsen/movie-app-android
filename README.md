@@ -73,6 +73,7 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 
 ```bash
 git clone https://github.com/eniseahsen/movie-app-android
+```
 
 2. Android Studio ile açın.
 
