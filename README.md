@@ -19,6 +19,8 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 | Retrofit         | REST API tüketimi için            |
 | Glide            | Film görselleri için görsel yükleyici |
 | Firebase Auth    | Google ve e-mail ile giriş sistemi |
+| Firestore Database | 	Kullanıcı bilgileri (favoriler vb.) gibi dinamik verileri saklamak için |
 | XML              | Android UI bileşenlerini tanımlamak için kullanılan biçim |
 | Cloudinary       | 	Kullanıcı profil fotoğraflarını yüklemek ve barındırmak için bulut tabanlı medya yönetim servisi|
+
 
