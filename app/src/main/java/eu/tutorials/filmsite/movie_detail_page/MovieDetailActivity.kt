@@ -1,4 +1,4 @@
-package eu.tutorials.filmsite
+package eu.tutorials.filmsite.movie_detail_page
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -17,12 +17,15 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.google.android.material.navigation.NavigationView
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
+import eu.tutorials.filmsite.favorites_page.FavoritesFragment
+import eu.tutorials.filmsite.profile_page.ProfileActivity
+import eu.tutorials.filmsite.R
 import eu.tutorials.filmsite.adapter.CastAdapter
+import eu.tutorials.filmsite.login_page.MainKayitOl
 import eu.tutorials.filmsite.model.Movie
+import eu.tutorials.filmsite.movies_page.MoviesActivity
 import eu.tutorials.filmsite.network.MovieApiService
-import eu.tutorials.filmsite.network.TMDBApi
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

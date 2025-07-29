@@ -1,4 +1,4 @@
-package eu.tutorials.filmsite
+package eu.tutorials.filmsite.movie_detail_page
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,8 +7,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.DialogFragment
-import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
+import eu.tutorials.filmsite.R
 import eu.tutorials.filmsite.model.CastMember
 
 class CastFragment : DialogFragment() {

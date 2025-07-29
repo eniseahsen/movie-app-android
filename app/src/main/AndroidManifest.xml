@@ -21,7 +21,7 @@
 
         <!-- Artık uygulama ilk açıldığında MainKayitOl açılacak -->
         <activity
-            android:name=".MainKayitOl"
+            android:name=".login_page.MainKayitOl"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Filmsite">
@@ -32,15 +32,15 @@
         </activity>
 
         <activity
-            android:name=".MoviesActivity"
+            android:name=".movies_page.MoviesActivity"
             android:exported="false"
             android:theme="@style/Theme.Filmsite" />
 
-        <activity android:name=".MovieDetailActivity"
+        <activity android:name=".movie_detail_page.MovieDetailActivity"
             android:exported="false"
             android:theme="@style/Theme.Filmsite" />
 
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".profile_page.ProfileActivity" />
 
 
 

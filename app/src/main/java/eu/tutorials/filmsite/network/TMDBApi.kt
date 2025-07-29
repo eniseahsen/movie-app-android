@@ -4,7 +4,6 @@ package eu.tutorials.filmsite.network
 import eu.tutorials.filmsite.Constants
 import eu.tutorials.filmsite.model.MovieResponse
 import retrofit2.http.GET
-import retrofit2.http.Path
 import retrofit2.http.Query
 
 //RetrofitClient ise Retrofit'i yapılandırıp, bu arayüzün gerçek işleyen halini oluşturarak çağrı yapmayı sağlar.

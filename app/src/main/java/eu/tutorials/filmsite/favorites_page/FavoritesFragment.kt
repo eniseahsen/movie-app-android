@@ -1,4 +1,4 @@
-package eu.tutorials.filmsite
+package eu.tutorials.filmsite.favorites_page
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -6,8 +6,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import androidx.appcompat.widget.Toolbar
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.drawerlayout.widget.DrawerLayout
@@ -16,11 +14,12 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.google.android.material.navigation.NavigationView
-import com.google.firebase.Firebase
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import eu.tutorials.filmsite.R
 import eu.tutorials.filmsite.adapter.MovieAdapter
 import eu.tutorials.filmsite.model.Movie
+import eu.tutorials.filmsite.movie_detail_page.MovieDetailActivity
 
 class FavoritesFragment : Fragment(R.layout.fragment_favorites){
     private lateinit var recyclerView : RecyclerView
@@ -49,7 +48,7 @@ class FavoritesFragment : Fragment(R.layout.fragment_favorites){
         recyclerView.layoutManager = LinearLayoutManager(requireContext()) //Recyclerview dikey liste olarak ayarlanıyor
         adapter = MovieAdapter(mutableListOf(),
             { movie ->
-            val intent = android.content.Intent(requireContext(),MovieDetailActivity::class.java)
+            val intent = android.content.Intent(requireContext(), MovieDetailActivity::class.java)
             intent.putExtra("movie", movie) //MovieDetailActivity'ye
             startActivity(intent)
 

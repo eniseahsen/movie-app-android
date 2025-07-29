@@ -1,4 +1,4 @@
-package eu.tutorials.filmsite
+package eu.tutorials.filmsite.login_page
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,7 +8,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ProgressBar
 import android.widget.Toast
-import androidx.activity.ComponentActivity
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.activity.enableEdgeToEdge
@@ -21,6 +20,8 @@ import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
+import eu.tutorials.filmsite.movies_page.MoviesActivity
+import eu.tutorials.filmsite.R
 
 class MainKayitOl : AppCompatActivity() { //Activity'nin geliştirilmiş versiyonu olan base class
 

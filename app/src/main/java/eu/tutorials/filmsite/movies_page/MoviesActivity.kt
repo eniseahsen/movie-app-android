@@ -1,4 +1,4 @@
-package eu.tutorials.filmsite
+package eu.tutorials.filmsite.movies_page
 
 import android.content.Intent
 import android.os.Bundle
@@ -16,8 +16,12 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.google.android.material.navigation.NavigationView
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.FirebaseFirestore
+import eu.tutorials.filmsite.favorites_page.FavoritesFragment
+import eu.tutorials.filmsite.movie_detail_page.MovieDetailActivity
+import eu.tutorials.filmsite.profile_page.ProfileActivity
+import eu.tutorials.filmsite.R
 import eu.tutorials.filmsite.adapter.MovieAdapter
-import eu.tutorials.filmsite.model.Movie
+import eu.tutorials.filmsite.login_page.MainKayitOl
 import eu.tutorials.filmsite.network.RetrofitClient
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.delay
