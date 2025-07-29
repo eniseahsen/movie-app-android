@@ -24,14 +24,8 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 | Cloudinary       | 	Kullanıcı profil fotoğraflarını yüklemek ve barındırmak için bulut tabanlı medya yönetim servisi|
 
 
-## Ekran Görüntüleri
-| Ana Sayfa | Favoriler | Profi |
-|-----------|------------|-----------|
-| ![home](screenshots/home.jpeg) | ![detail](screenshots/favorites.jpeg) | ![fav](screenshots/profile.jpeg) |
 
-| Ana Sayfa | Favoriler | Profil |
-|-----------|------------|-----------|
-| ![home](screenshots/filmdetail.jpeg) | ![detail](screenshots/cast.jpeg) | ![navbar](screenshots/navbar.jpeg) |
+## Ekran Görüntüleri
 
 | Giriş Ekranı | Ana Sayfa | Profil Sayfası | Navigation Bar |
 |-----------|-----------|--------|---------------|
