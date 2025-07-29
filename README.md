@@ -26,6 +26,9 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 
 
 ## Ekran Görüntüleri
+
+<h2>Ekran Görüntüleri</h2>
+
 <table>
   <tr>
     <th>Giriş Ekranı</th>
@@ -38,6 +41,23 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
     <td><img src="screenshots/home.jpeg" width="200"/></td>
     <td><img src="screenshots/profile.jpeg" width="200"/></td>
     <td><img src="screenshots/navbar.jpeg" width="200"/></td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+  <tr>
+    <th>Film Detay Sayfası</th>
+    <th>Oyuncu Listesi</th>
+    <th>Profil Düzenleme</th>
+    <th>Favori Filmler</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/filmdetail.jpeg" width="200"/></td>
+    <td><img src="screenshots/cast.jpeg" width="200"/></td>
+    <td><img src="screenshots/editprofile.jpeg" width="200"/></td>
+    <td><img src="screenshots/favorites.jpeg" width="200"/></td>
   </tr>
 </table>
 
