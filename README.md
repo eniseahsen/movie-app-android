@@ -75,12 +75,17 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 git clone https://github.com/eniseahsen/movie-app-android
 ```
 
-2. Android Studio ile açın.
+2. Klonladığınız dizine gidin:
+   
+```bash
+cd movie-app-android
+```
+   
 
-3. local.properties dosyanıza TMDB API anahtarınızı girin:
+4. local.properties dosyanıza TMDB API anahtarınızı girin:
 TMDB_API_KEY=your_api_key_here
 
-4. Projeyi senkronize edin ve çalıştırın!
+5. Projeyi senkronize edin ve çalıştırın!
 
 
 
