@@ -31,7 +31,7 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 
 | Ana Sayfa | Favoriler | Profil |
 |-----------|------------|-----------|
-| ![home](screenshots/filmdetail.jpeg) | ![detail](screenshots/cast.jpeg) | ![fav](navbar.jpeg) |
+| ![home](screenshots/filmdetail.jpeg) | ![detail](screenshots/cast.jpeg) | ![navbar](screenshots/navbar.jpeg) |
 
 
 
