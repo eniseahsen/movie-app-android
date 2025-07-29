@@ -85,7 +85,7 @@ cd movie-app-android
 Android Studio'yu açın → Open seçeneğine tıklayın → movie-app-android klasörünü seçin
 
 4. local.properties dosyanıza TMDB API anahtarınızı girin:
-TMDB_API_KEY=your_api_key_here
+TMDB_API_KEY= sizin_api_keyiniz
 
 5. Projeyi senkronize edin ve çalıştırın:
  Android Studio'da Sync Now butonuna tıklayın ve ardından uygulamayı emülatörde veya gerçek cihazda çalıştırın.
