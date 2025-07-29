@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:menu="@menu/drawer_menu">
+
+
+
+    <item
+        android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/home_icon" />
+
+
+    <item
+        android:id="@+id/menu_favorites"
+        android:title="Favorites"
+        android:icon="@drawable/favorites_icon" />
+
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="Profile"
+        android:icon="@drawable/account" />
+
+    <item
+        android:id="@+id/menu_logout"
+        android:title="Logout"
+        android:icon="@drawable/logout_icon" />
+
+</menu>

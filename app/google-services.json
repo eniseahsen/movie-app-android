@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "502973110714",
+    "project_id": "filmsite-102d8",
+    "storage_bucket": "filmsite-102d8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502973110714:android:f8dd3b729c847e46abe583",
+        "android_client_info": {
+          "package_name": "eu.tutorials.filmsite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502973110714-c1dgroo0su80jskub2gr1fb9i92jjcf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "eu.tutorials.filmsite",
+            "certificate_hash": "d228f0a82207936f630eb990f8289b21f86e638f"
+          }
+        },
+        {
+          "client_id": "502973110714-4mvmjsrpm7dp4nedohlmsvlgcpfv5rnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCdnCmmS1obqEE_FU3T2DcBmczDYtvR-I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502973110714-4mvmjsrpm7dp4nedohlmsvlgcpfv5rnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.tutorials.filmsite">
+
+    <!-- İnternet izni (Firebase için gerekli) -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Cloudinary için -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <!-- Android 12 ve öncesi -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Filmsite">
+
+        <!-- Artık uygulama ilk açıldığında MainKayitOl açılacak -->
+        <activity
+            android:name=".MainKayitOl"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Filmsite">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MoviesActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Filmsite" />
+
+        <activity android:name=".MovieDetailActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Filmsite" />
+
+        <activity android:name=".ProfileActivity" />
+
+
+
+
+
+
+        <!-- Diğer ekran: MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:theme="@style/Theme.Filmsite" />
+    </application>
+
+</manifest>

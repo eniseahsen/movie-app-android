@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <!-- ANA İÇERİK -->
+
+    <!-- DRAWER MENU -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar2"
+            android:layout_width="0dp"
+            android:layout_height="?attr/actionBarSize"
+            android:logo="@drawable/logo_custom"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:titleTextColor="@color/button_color" />
+
+
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="80dp"
+            android:contentDescription="profileImage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/profileEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text=""
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="0dp"
+            android:text="Name: "
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileEmail" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="name"
+            android:layout_marginLeft="110dp"
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+
+
+        <TextView
+            android:id="@+id/labelPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="34dp"
+            android:text="Phone: "
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileEmail"/>
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="110dp"
+            android:text="phone"
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name" />
+
+        <TextView
+            android:id="@+id/labelAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="150dp"
+            android:layout_marginTop="70dp"
+            android:text="Age: "
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileEmail" />
+
+
+
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:text="age"
+            android:textColor="@color/purple2"
+            android:textSize="18sp"
+            android:layout_marginLeft="110dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/profileImage" />
+
+
+
+        <Button
+            android:id="@+id/btndetails"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="160dp"
+            android:backgroundTint="@color/purple"
+            android:elevation="0dp"
+            android:padding="12dp"
+            android:text="EdIT"
+            android:textColor="@android:color/white"
+            app:cornerRadius="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileEmail"
+            android:fontFamily="sans-serif-medium"/>
+
+        <Button
+            android:id="@+id/btnfavorites"
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="230dp"
+            android:backgroundTint="@color/purple"
+            android:elevation="0dp"
+            android:padding="12dp"
+            android:text="FavorItes"
+            android:textColor="@android:color/white"
+            app:cornerRadius="56dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/profileEmail" />
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            >
+
+            <FrameLayout
+                android:id="@+id/fragmentContainer2"
+                android:layout_width="0dp"
+                android:layout_height="0dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fragmentContainer3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_menu"
+        android:background="@color/purple"
+        app:itemTextColor="@color/button_color"
+        app:itemIconTint="@color/button_color"/>
+</androidx.drawerlayout.widget.DrawerLayout>
