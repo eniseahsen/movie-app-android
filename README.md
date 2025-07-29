@@ -20,8 +20,8 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 | Teknoloji        | Açıklama                          |
 |------------------|-----------------------------------|
 | Kotlin           | Modern Android uygulama dili      |
-| Android Jetpack  | RecyclerView, ViewModel, Drawer   |
-| Retrofit         | REST API tüketimi için            |
+| Android Jetpack  | RecyclerView, Drawer   |
+| Retrofit         | REST API kullanımı için            |
 | Glide            | Film görselleri için görsel yükleyici |
 | Firebase Auth    | Google ve e-mail ile giriş sistemi |
 | Firestore Database | 	Kullanıcı bilgileri (favoriler vb.) gibi dinamik verileri saklamak için |
