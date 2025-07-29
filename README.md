@@ -26,14 +26,20 @@ Kotlin diliyle geliştirilen bu Android uygulaması, kullanıcıların popüler 
 
 
 ## Ekran Görüntüleri
-
-| Giriş Ekranı | Ana Sayfa | Profil Sayfası | Navigation Bar |
-|-----------|-----------|-----------|-----------|
-| ![home](screenshots/login.jpeg) | ![favorites](screenshots/home.jpeg) | ![profile](screenshots/profile.jpeg) | ![cast](screenshots/navbar.jpeg) |
-
-| Film Detay Sayfası | Oyuncu Listesi | Profil Düzenleme | Favori Filmler |
-|-----------|-----------|-----------|-----------|
-| ![home](screenshots/filmdetail.jpeg) | ![favorites](screenshots/cast.jpeg) | ![profile](screenshots/editprofile.jpeg) | ![cast](screenshots/favorites.jpeg) |
+<table>
+  <tr>
+    <th>Giriş Ekranı</th>
+    <th>Ana Sayfa</th>
+    <th>Profil Sayfası</th>
+    <th>Navigation Bar</th>
+  </tr>
+  <tr>
+    <td><img src="screenshots/login.jpeg" width="200"/></td>
+    <td><img src="screenshots/home.jpeg" width="200"/></td>
+    <td><img src="screenshots/profile.jpeg" width="200"/></td>
+    <td><img src="screenshots/navbar.jpeg" width="200"/></td>
+  </tr>
+</table>
 
 
 
