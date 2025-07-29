@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="screenshots/logo_mor.png" alt="Movie App Banner" width="100%" height="200"/>
+  <img src="screenshots/logo_mor.png" alt="Movie App Banner" width="100%" height="250"/>
 </p>
 
 
